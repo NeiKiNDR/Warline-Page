@@ -284,6 +284,7 @@ html {
 }
 .botondiscord {
 	padding:15px;
+    border:1px solid #ffffff;
 	display:inline-block;
 	background:#2a2a2a;
 	color:#2a2a2a;
@@ -313,10 +314,20 @@ html {
 .waviy span {
 	position: relative;
 	display: inline-block;
-	font-size: 25px;
+	font-size: 20px;
 	animation: flip 6.5s infinite;
-    color: #00eaff;
+    color: #ffffff;
 	animation-delay: calc(.3s * var(--i))
+}
+.boxText {
+    margin:0 0 -20px;
+    overflow:hidden;
+    display: inline-block;
+    padding:6px;
+    background-color:#2a2a2a;
+    border:1px solid #ffffff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
 }
 @keyframes flip {
 	0%,80% {
@@ -377,30 +388,33 @@ html {
 <br></br>
 <br></br>
 <br></br>
-<br></br>
 <center>
     <img width="250" height="250" src="logo.png"></img>
     <div class="ftrinfo">
-    <div class="waviy">
-        <span style="--i:1">
-            <a class="botondiscord" style="text-decoration:none" color="inherit" href="https://discord.gg/JKPv3996HS" target="_blank">Discord</a>
-        </span>
-    </div>
+        <div class="waviy">
+            <span style="--i:1">
+                <a class="botondiscord" style="text-decoration:none" color="inherit" href="https://discord.gg/JKPv3996HS" target="_blank">Discord</a>
+            </span>
+        </div>
     </div>
     <h4>
-        <div class="waviy">
-            <span style="--i:1">Credits:</span>
-            <span style="--i:2">Scripter</span>
-            <span style="--i:3">NabilDr</span>
+        <div class="boxText">
+            <div class="waviy">
+                <span style="--i:1">Credits:</span>
+                <span style="--i:2">Scripter</span>
+                <span style="--i:3">NabilDr</span>
+            </div>
         </div>
     </h4>
     <h3>
-        <div class="waviy">
-            <span style="--i:1">||</span>
-            <span style="--i:2">N.P</span>
-            <span style="--i:3">Scripting</span>
-            <span style="--i:4">Cominunity</span>
-            <span style="--i:5">||</span>
+        <div class="boxText">
+            <div class="waviy">
+                <span style="--i:1">||</span>
+                <span style="--i:2">N.P</span>
+                <span style="--i:3">Scripting</span>
+                <span style="--i:4">Cominunity</span>
+                <span style="--i:5">||</span>
+            </div>
         </div>
     </h3>
 </center>
